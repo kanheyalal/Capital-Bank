@@ -1,0 +1,123 @@
+.home {
+    width: 100%;
+    font-family: Rubik, Roboto, sans-serif;  
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header{
+    width: 50%;
+    font-size: 60px;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #1f2833;
+}
+
+.header .head{
+    text-shadow: 3px 2px  rgb(170, 165, 165);
+}
+
+.content{
+    font-size: 20px;
+    text-shadow: 1px 1px  rgb(170, 165, 165);
+}
+.openAccountBtnDiv{
+    width: 100%;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.openAccount{
+    font-size: 25px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    background-color: #1f2833;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 4px 4px 8px rgb(133, 127, 127);
+}
+
+.image{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    z-index: -1;
+}
+
+.lottie{
+    width: 70%;
+    margin: auto;
+}
+
+
+
+@media (max-width:1220px) {
+    .header{
+        font-size: 50px;
+    }
+    .lottie{
+        width: 75%;
+    }
+}
+
+@media (max-width: 1050px) {
+    .header{
+        font-size: 40px;
+    }
+    .content{
+        font-size: 15px;
+    }
+    .lottie{
+        width: 100%;
+    }
+    .openAccount{
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 820px) {
+    .header{
+        width: 100%;
+        padding-top: 50px;
+    }
+    .image{
+        width: 100%;
+    }
+    .lottie{
+        width: 50%;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .lottie{
+        width: 60%;
+    }
+}
+
+@media (max-width: 470px) {
+
+    .header{
+        font-size: 30px;
+    }
+    .openAccount{
+        font-size: 15px;
+    }
+    
+.header .head{
+    text-shadow: 2px 1px  rgb(170, 165, 165);
+}
+    .lottie{
+        width: 90%;
+    }
+}
+
+
+
+

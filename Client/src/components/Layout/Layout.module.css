@@ -1,0 +1,22 @@
+.main {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    max-height: 100vh;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.header {
+    height: 10vh;
+}
+
+.content {
+    width: 100vw;
+    min-height:84vh;
+    align-items: center;
+}
+
+.footer {
+    height: 6vh;
+}

@@ -1,0 +1,14 @@
+.footer {
+    background-color: #fff;
+    height: 6vh;
+    line-height: 6vh;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000;
+} 
+
+@media  screen and (max-width:600px) {
+    .footer{
+        font-size: 18px;
+    }
+}

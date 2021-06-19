@@ -1,0 +1,22 @@
+.main{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main p{
+    font-size: 25px;
+    width: 90%;
+    text-align: center;
+}
+
+.main div{
+    font-size: 20px;
+    width: 10%;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.main div:hover{
+    color: gray;
+}

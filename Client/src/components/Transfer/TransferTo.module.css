@@ -1,0 +1,29 @@
+.transfer {
+   width: 100%;
+}
+.content{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0; 
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.content p {
+    width: 70%;
+    text-align: left;
+    padding-left: 10px;
+    padding: 10px 0;
+}
+.content div{
+    width: 30%;
+    font-size: 30px;
+}
+
+.radio{
+    cursor: pointer;
+
+}

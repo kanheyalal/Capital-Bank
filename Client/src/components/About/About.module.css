@@ -1,0 +1,104 @@
+.main{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh;
+}
+
+.header{
+    width: 90%; 
+    margin: auto;
+}
+
+.header .h1 {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px gray;
+    word-spacing: 5px;
+}
+
+.paraAbout {
+    padding: 20px 0;
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.content {
+    width:100%;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    border: 1px solid rgb(88, 86, 86);
+    border-radius: 5px;
+
+}
+
+.aboutIcon{
+    text-shadow: 2px 2px gray;
+    font-size: 80px;
+    color: rgb(49, 48, 48);
+}
+
+.heading{
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 1px 1px gray;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 5xp;
+    padding: 5px 0;
+}
+
+.commentAbout {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+@media screen and (max-width:900px) {
+    .header{
+        width:100%;
+    }
+    .paraAbout{
+        width: 90%;
+    }
+    .box{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .box{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+        
+    }
+    .heading{
+        font-size: 15px;
+    }
+    .commentAbout{
+        font-size: 13px;
+    }
+}
+

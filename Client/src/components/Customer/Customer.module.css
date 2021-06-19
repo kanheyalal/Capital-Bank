@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+.Customer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container{
+    width: 50%;
+    text-align: center;
+}
+
+.allCustomers{
+    width: 70%;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid rgb(156, 154, 154);
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 1px 5px 10px rgb(116, 110, 110);
+    border-radius: 15px;
+}
+.customerImage{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
+.historyImgae{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
+
+.btnDiv{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.btn{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #1f2833;
+    color: #fff;
+    border-radius: 5px;
+    transition: all 0.4s ease-out;
+    padding: 5px 10px;
+}
+
+.btn:hover{
+    box-shadow: 5px 5px 7px gray;
+}
+
+@media screen and (max-width: 1220px) {
+    .allCustomers{
+        width: 90%;
+    }
+
+}
+@media screen and (max-width: 950px) {
+    .customerImage, .historyImgae{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .container{
+        width: 100%;
+    }
+    .allCustomers{
+        width: 70%;
+    }
+    .customerImage, .historyImgae{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    .allCustomers{
+        width: 80%;
+    }
+    .customerImage, .historyImgae{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .customerImage, .historyImgae{
+        width: 250px;
+        height: 200px;
+    }
+}
